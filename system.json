@@ -17,12 +17,8 @@
     { "name": "drewg13" },
     { "name": "justinross" }
   ],
-  "esmodules": [
-    "module/blades.js"
-  ],
-  "styles": [
-    "styles/blades.css"
-  ],
+  "esmodules": ["module/blades.js"],
+  "styles": ["styles/blades.css"],
   "languages": [
     {
       "lang": "en",
@@ -53,6 +49,11 @@
       "lang": "pt",
       "name": "Portuguese",
       "path": "lang/pt.json"
+    },
+    {
+      "lang": "fr",
+      "name": "French",
+      "path": "lang/fr.json"
     }
   ],
   "packs": [
@@ -126,7 +127,7 @@
       "path": "./packs/crew_abilities.db",
       "type": "Item"
     },
-	{
+    {
       "name": "faction",
       "label": "Factions",
       "system": "blades-in-the-dark",
@@ -140,21 +141,21 @@
       "path": "./packs/npcs.db",
       "type": "Actor"
     },
-	{
+    {
       "name": "entanglements",
       "label": "Entanglements",
       "system": "blades-in-the-dark",
       "path": "./packs/entanglements.db",
       "type": "RollTable"
     },
-	{
+    {
       "name": "entanglements-journals",
       "label": "Entanglements Journals",
       "system": "blades-in-the-dark",
       "path": "./packs/entanglements-journals.db",
       "type": "JournalEntry"
     },
-	{
+    {
       "name": "entanglements-macro",
       "label": "Entanglements Macro",
       "system": "blades-in-the-dark",
